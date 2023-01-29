@@ -2,9 +2,9 @@
 
 namespace ReturnEarly\LaravelEnums;
 
+use ReturnEarly\LaravelEnums\Commands\LaravelEnumsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ReturnEarly\LaravelEnums\Commands\LaravelEnumsCommand;
 
 class LaravelEnumsServiceProvider extends PackageServiceProvider
 {
