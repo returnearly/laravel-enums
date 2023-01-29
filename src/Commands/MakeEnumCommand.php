@@ -4,9 +4,9 @@ namespace ReturnEarly\LaravelEnums\Commands;
 
 use Illuminate\Console\Command;
 
-class LaravelEnumsCommand extends Command
+class MakeEnumCommand extends Command
 {
-    public $signature = 'laravel-enums';
+    public $signature = 'make:enum {name}';
 
     public $description = 'My command';
 
