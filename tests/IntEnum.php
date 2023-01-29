@@ -14,4 +14,3 @@ enum IntEnum: int
     case TWO = 2;
     case THREE = 3;
 }
-
