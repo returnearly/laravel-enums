@@ -14,4 +14,3 @@ enum StringEnum: string
     case B = 'B';
     case C = 'C';
 }
-
