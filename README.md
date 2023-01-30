@@ -17,8 +17,12 @@ composer require returnearly/laravel-enums
 
 ## Usage
 
-```php
+```sh
+php artisan make:enum UserTypeEnum --int --test
+```
 
+```sh
+php artisan make:enum UserStatusEnum --string --test
 ```
 
 ## Testing
@@ -41,7 +45,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Tom Schlick](https://github.com/returnearly)
+- [Tom Schlick](https://github.com/tomschlick)
 - [All Contributors](../../contributors)
 
 ## License
