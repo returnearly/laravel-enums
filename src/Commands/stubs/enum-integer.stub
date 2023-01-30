@@ -1,0 +1,12 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use ReturnEarly\LaravelEnums\EnumHelpers;
+
+enum {{ class }}: int
+{
+    use EnumHelpers;
+}
