@@ -5,7 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/returnearly/laravel-enums/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/returnearly/laravel-enums/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/returnearly/laravel-enums.svg?style=flat-square)](https://packagist.org/packages/returnearly/laravel-enums)
 
-A helper package for PHP 8.1+ enums for Laravel.
+A package to generate PHP 8.1 Enums, and adds Laravel Collection helpers around them. 
 
 ## Installation
 
