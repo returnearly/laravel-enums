@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-enums` will be documented in this file.
 
+## v1.0.1 - 2023-04-16
+
+### What's Changed
+
+- enable laravel 10 for tests by @tomschlick in https://github.com/returnearly/laravel-enums/pull/4
+
+**Full Changelog**: https://github.com/returnearly/laravel-enums/compare/v1.0.0...v1.0.1
+
 ## v1.0.0 - 2023-01-30
 
 ### What's Changed
