@@ -46,7 +46,7 @@ class MakeEnumCommand extends GeneratorCommand
     protected function getEnumType(): string
     {
         if ($this->option('int')) {
-            return 'int';
+            return 'integer';
         }
 
         if ($this->option('string')) {
@@ -56,7 +56,7 @@ class MakeEnumCommand extends GeneratorCommand
         return $this->choice(
             'What type of enum do you want to create?',
             [
-                'int',
+                'integer',
                 'string',
             ]
         );
