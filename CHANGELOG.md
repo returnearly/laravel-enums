@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-enums` will be documented in this file.
 
+## v2.0.0 - 2024-09-06
+
+### What's Changed
+
+* support laravel 11, remove support for laravel 9 / php 8.1 by @tomschlick in https://github.com/returnearly/laravel-enums/pull/8
+
+**Full Changelog**: https://github.com/returnearly/laravel-enums/compare/v1.0.1...v2.0.0
+
 ## v1.0.1 - 2023-04-16
 
 ### What's Changed
