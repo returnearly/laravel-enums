@@ -2,6 +2,14 @@
 
 All notable changes to `laravel-enums` will be documented in this file.
 
+## v2.1.0 - 2025-05-04
+
+### What's Changed
+
+* add isNotAny() by @tomschlick in https://github.com/returnearly/laravel-enums/pull/9
+
+**Full Changelog**: https://github.com/returnearly/laravel-enums/compare/v2.0.0...v2.1.0
+
 ## v2.0.0 - 2024-09-06
 
 ### What's Changed
