@@ -91,6 +91,11 @@ test('an enum can check if it is any of a list of enums', function () {
     $this->assertFalse(IntEnum::ONE->isAny([IntEnum::TWO, IntEnum::THREE]));
 });
 
+test('an enum can check if it is not any of a list of enums', function () {
+    $this->assertFalse(IntEnum::ONE->isNotAny([IntEnum::ONE, IntEnum::TWO]));
+    $this->assertTrue(IntEnum::ONE->isNotAny([IntEnum::TWO, IntEnum::THREE]));
+});
+
 test('an enum can be created from a value', function () {
     $this->assertEquals(IntEnum::ONE, IntEnum::fromValue(1));
 });
