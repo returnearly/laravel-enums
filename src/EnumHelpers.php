@@ -83,6 +83,11 @@ trait EnumHelpers
         return ! $this->is($input);
     }
 
+    public function isNotAny(iterable $input): bool
+    {
+        return ! $this->isAny($input);
+    }
+
     public static function fromValue(int|string|self $value): static
     {
         if ($value instanceof self) {
